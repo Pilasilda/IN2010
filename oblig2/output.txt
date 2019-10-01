@@ -1,0 +1,703 @@
+
+Alle prosjekter i filen:  
+ 
+
+Task ID: 1
+Name: Install-pavement
+Time: 20
+Manpower: 10
+Slack: 0
+Earliest: 186
+Lastest: 186
+Out-edges: 
+NONE
+
+Task ID: 2
+Name: Install-railing
+Time: 7
+Manpower: 10
+Slack: 174
+Earliest: 5
+Lastest: 179
+Out-edges: 
+NONE
+
+Task ID: 3
+Name: Install-ticketmachine
+Time: 1
+Manpower: 10
+Slack: 122
+Earliest: 63
+Lastest: 185
+Out-edges: 
+NONE
+
+Task ID: 4
+Name: Paint-tower-1-with-arch
+Time: 15
+Manpower: 6
+Slack: 52
+Earliest: 119
+Lastest: 171
+Out-edges: 
+NONE
+
+Task ID: 5
+Name: Paint-tower-2
+Time: 12
+Manpower: 6
+Slack: 50
+Earliest: 124
+Lastest: 174
+Out-edges: 
+NONE
+
+Task ID: 6
+Name: Paint-trusses
+Time: 27
+Manpower: 6
+Slack: -27
+Earliest: 186
+Lastest: 159
+Out-edges: 
+NONE
+
+Task ID: 7
+Name: Paint-cables-and-rods
+Time: 18
+Manpower: 6
+Slack: -18
+Earliest: 186
+Lastest: 168
+Out-edges: 
+NONE
+
+Task ID: 8
+Name: Put-lane-tunnel-and-intersection
+Time: 12
+Manpower: 7
+Slack: 111
+Earliest: 51
+Lastest: 162
+Out-edges: 331
+
+Task ID: 9
+Name: Setup-barrack
+Time: 3
+Manpower: 10
+Slack: -32
+Earliest: 0
+Lastest: -32
+Out-edges: 101112141617
+
+Task ID: 10
+Name: Prepare-storage
+Time: 2
+Manpower: 4
+Slack: 174
+Earliest: 3
+Lastest: 177
+Out-edges: 2
+
+Task ID: 11
+Name: Rig-ramspace-reinforcing
+Time: 1
+Manpower: 4
+Slack: -27
+Earliest: 3
+Lastest: -24
+Out-edges: 181920
+
+Task ID: 12
+Name: Build-tunnel
+Time: 30
+Manpower: 12
+Slack: 111
+Earliest: 3
+Lastest: 114
+Out-edges: 13
+
+Task ID: 13
+Name: Clean-tunnel
+Time: 18
+Manpower: 12
+Slack: 111
+Earliest: 33
+Lastest: 144
+Out-edges: 8
+
+Task ID: 14
+Name: Build-intersection
+Time: 25
+Manpower: 12
+Slack: 114
+Earliest: 3
+Lastest: 117
+Out-edges: 15
+
+Task ID: 15
+Name: Clean-intersection
+Time: 20
+Manpower: 12
+Slack: 114
+Earliest: 28
+Lastest: 142
+Out-edges: 8
+
+Task ID: 16
+Name: Build-towerfoundation-1
+Time: 35
+Manpower: 12
+Slack: -21
+Earliest: 3
+Lastest: -18
+Out-edges: 21
+
+Task ID: 17
+Name: Build-towerfoundation-2
+Time: 45
+Manpower: 12
+Slack: -32
+Earliest: 3
+Lastest: -29
+Out-edges: 22
+
+Task ID: 18
+Name: Make-armouring-tower-1
+Time: 40
+Manpower: 4
+Slack: -27
+Earliest: 4
+Lastest: -23
+Out-edges: 21
+
+Task ID: 19
+Name: Make-armouring-tower-2
+Time: 25
+Manpower: 4
+Slack: -13
+Earliest: 4
+Lastest: -9
+Out-edges: 22
+
+Task ID: 20
+Name: Make-armouring-arch
+Time: 12
+Manpower: 4
+Slack: 108
+Earliest: 4
+Lastest: 112
+Out-edges: 23
+
+Task ID: 21
+Name: Encase-and-armour-tower-1
+Time: 15
+Manpower: 5
+Slack: -27
+Earliest: 44
+Lastest: 17
+Out-edges: 24
+
+Task ID: 22
+Name: Encase-and-armour-tower-2
+Time: 16
+Manpower: 5
+Slack: -32
+Earliest: 48
+Lastest: 16
+Out-edges: 25
+
+Task ID: 23
+Name: Encase-and-armour-arch
+Time: 30
+Manpower: 5
+Slack: 108
+Earliest: 16
+Lastest: 124
+Out-edges: 26
+
+Task ID: 24
+Name: Cast-tower-1
+Time: 60
+Manpower: 7
+Slack: -27
+Earliest: 59
+Lastest: 32
+Out-edges: 427
+
+Task ID: 25
+Name: Cast-tower-2
+Time: 60
+Manpower: 7
+Slack: -32
+Earliest: 64
+Lastest: 32
+Out-edges: 527
+
+Task ID: 26
+Name: Cast-arch
+Time: 20
+Manpower: 7
+Slack: 108
+Earliest: 46
+Lastest: 154
+Out-edges: 31
+
+Task ID: 27
+Name: Stretch-two-maincables
+Time: 25
+Manpower: 10
+Slack: -32
+Earliest: 124
+Lastest: 92
+Out-edges: 2829
+
+Task ID: 28
+Name: Build-truss-1-with-rods
+Time: 30
+Manpower: 10
+Slack: -25
+Earliest: 149
+Lastest: 124
+Out-edges: 16730
+
+Task ID: 29
+Name: Build-truss-2-with-rods
+Time: 37
+Manpower: 10
+Slack: -32
+Earliest: 149
+Lastest: 117
+Out-edges: 16730
+
+Task ID: 30
+Name: Cast-lane-on-truss
+Time: 20
+Manpower: 7
+Slack: -32
+Earliest: 186
+Lastest: 154
+Out-edges: 31
+
+Task ID: 31
+Name: Polish-lane-on-arch
+Time: 12
+Manpower: 7
+Slack: -32
+Earliest: 206
+Lastest: 174
+Out-edges: 
+NONE
+ 
+Sjekk av slack og critical for tasks: 
+
+Task name: Rig-ramspace-reinforcing
+latest time to finish (uten delay): -23
+Task er ikke critical og har max delay start ved : -27
+ 
+
+Optimal schedule time: 
+ 
+ID for tasks som går samtidig: 
+ 
+Tasker som gaar samtidig: 
+ID for task: 16
+ID for task: 14
+ID for task: 11
+ID for task: 12
+ID for task: 10
+ID for task: 17
+ 
+Tasker som gaar samtidig: 
+ID for task: 20
+ID for task: 18
+ID for task: 19
+ 
+Tasker som gaar samtidig: 
+ID for task: 27
+ID for task: 5
+ 
+Tasker som gaar samtidig: 
+ID for task: 28
+ID for task: 29
+ 
+Tasker som gaar samtidig: 
+ID for task: 30
+ID for task: 1
+ID for task: 6
+ID for task: 7
+ 
+Print tasks som kan kjores samtidig:   
+ 
+
+ID: 9 
+
+Name: Setup-barrack 
+
+Required Manpower: 10 
+
+Time: 3 
+
+Earlieststart: 0 
+
+Earliestfinish: 3 
+
+ID: 17 
+
+Name: Build-towerfoundation-2 
+
+Required Manpower: 12 
+
+Time: 45 
+
+Earlieststart: 3 
+
+Earliestfinish: 48 
+
+ID: 16 
+
+Name: Build-towerfoundation-1 
+
+Required Manpower: 12 
+
+Time: 35 
+
+Earlieststart: 3 
+
+Earliestfinish: 38 
+
+ID: 14 
+
+Name: Build-intersection 
+
+Required Manpower: 12 
+
+Time: 25 
+
+Earlieststart: 3 
+
+Earliestfinish: 28 
+
+ID: 15 
+
+Name: Clean-intersection 
+
+Required Manpower: 12 
+
+Time: 20 
+
+Earlieststart: 28 
+
+Earliestfinish: 48 
+
+ID: 12 
+
+Name: Build-tunnel 
+
+Required Manpower: 12 
+
+Time: 30 
+
+Earlieststart: 3 
+
+Earliestfinish: 33 
+
+ID: 13 
+
+Name: Clean-tunnel 
+
+Required Manpower: 12 
+
+Time: 18 
+
+Earlieststart: 33 
+
+Earliestfinish: 51 
+
+ID: 11 
+
+Name: Rig-ramspace-reinforcing 
+
+Required Manpower: 4 
+
+Time: 1 
+
+Earlieststart: 3 
+
+Earliestfinish: 4 
+
+ID: 20 
+
+Name: Make-armouring-arch 
+
+Required Manpower: 4 
+
+Time: 12 
+
+Earlieststart: 4 
+
+Earliestfinish: 16 
+
+ID: 23 
+
+Name: Encase-and-armour-arch 
+
+Required Manpower: 5 
+
+Time: 30 
+
+Earlieststart: 16 
+
+Earliestfinish: 46 
+
+ID: 26 
+
+Name: Cast-arch 
+
+Required Manpower: 7 
+
+Time: 20 
+
+Earlieststart: 46 
+
+Earliestfinish: 66 
+
+ID: 19 
+
+Name: Make-armouring-tower-2 
+
+Required Manpower: 4 
+
+Time: 25 
+
+Earlieststart: 4 
+
+Earliestfinish: 29 
+
+ID: 22 
+
+Name: Encase-and-armour-tower-2 
+
+Required Manpower: 5 
+
+Time: 16 
+
+Earlieststart: 48 
+
+Earliestfinish: 64 
+
+ID: 25 
+
+Name: Cast-tower-2 
+
+Required Manpower: 7 
+
+Time: 60 
+
+Earlieststart: 64 
+
+Earliestfinish: 124 
+
+ID: 18 
+
+Name: Make-armouring-tower-1 
+
+Required Manpower: 4 
+
+Time: 40 
+
+Earlieststart: 4 
+
+Earliestfinish: 44 
+
+ID: 21 
+
+Name: Encase-and-armour-tower-1 
+
+Required Manpower: 5 
+
+Time: 15 
+
+Earlieststart: 44 
+
+Earliestfinish: 59 
+
+ID: 24 
+
+Name: Cast-tower-1 
+
+Required Manpower: 7 
+
+Time: 60 
+
+Earlieststart: 59 
+
+Earliestfinish: 119 
+
+ID: 27 
+
+Name: Stretch-two-maincables 
+
+Required Manpower: 10 
+
+Time: 25 
+
+Earlieststart: 124 
+
+Earliestfinish: 149 
+
+ID: 29 
+
+Name: Build-truss-2-with-rods 
+
+Required Manpower: 10 
+
+Time: 37 
+
+Earlieststart: 149 
+
+Earliestfinish: 186 
+
+ID: 28 
+
+Name: Build-truss-1-with-rods 
+
+Required Manpower: 10 
+
+Time: 30 
+
+Earlieststart: 149 
+
+Earliestfinish: 179 
+
+ID: 30 
+
+Name: Cast-lane-on-truss 
+
+Required Manpower: 7 
+
+Time: 20 
+
+Earlieststart: 186 
+
+Earliestfinish: 206 
+
+ID: 10 
+
+Name: Prepare-storage 
+
+Required Manpower: 4 
+
+Time: 2 
+
+Earlieststart: 3 
+
+Earliestfinish: 5 
+
+ID: 8 
+
+Name: Put-lane-tunnel-and-intersection 
+
+Required Manpower: 7 
+
+Time: 12 
+
+Earlieststart: 51 
+
+Earliestfinish: 63 
+
+ID: 31 
+
+Name: Polish-lane-on-arch 
+
+Required Manpower: 7 
+
+Time: 12 
+
+Earlieststart: 206 
+
+Earliestfinish: 218 
+
+ID: 7 
+
+Name: Paint-cables-and-rods 
+
+Required Manpower: 6 
+
+Time: 18 
+
+Earlieststart: 186 
+
+Earliestfinish: 204 
+
+ID: 6 
+
+Name: Paint-trusses 
+
+Required Manpower: 6 
+
+Time: 27 
+
+Earlieststart: 186 
+
+Earliestfinish: 213 
+
+ID: 5 
+
+Name: Paint-tower-2 
+
+Required Manpower: 6 
+
+Time: 12 
+
+Earlieststart: 124 
+
+Earliestfinish: 136 
+
+ID: 4 
+
+Name: Paint-tower-1-with-arch 
+
+Required Manpower: 6 
+
+Time: 15 
+
+Earlieststart: 119 
+
+Earliestfinish: 134 
+
+ID: 3 
+
+Name: Install-ticketmachine 
+
+Required Manpower: 10 
+
+Time: 1 
+
+Earlieststart: 63 
+
+Earliestfinish: 64 
+
+ID: 2 
+
+Name: Install-railing 
+
+Required Manpower: 10 
+
+Time: 7 
+
+Earlieststart: 5 
+
+Earliestfinish: 12 
+
+ID: 1 
+
+Name: Install-pavement 
+
+Required Manpower: 10 
+
+Time: 20 
+
+Earlieststart: 186 
+
+Earliestfinish: 206 

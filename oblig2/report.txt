@@ -1,0 +1,34 @@
+1. What is the time complexity of your solution? You must explain the stated complexity.
+If you have a different complexity for each problem, you need to discuss
+them separately.
+lesFil()
+- Denne metoden har forste for-loop som kjører n-ganger, så er det en til for-loop med en loop
+inni seg. Dette bidrar til at det blir n*n til sammen blir dette n+n^2 --> n^2. Kompleksiteten blir derfor O(n^2).
+
+sjekk()
+- denne metoden har bare en loop som gjør at det kjøres n gang. Kompleksiteten blir derfor O(n).
+
+sjekkCycle()
+- denne metoden består av en for-loop i en for-loop. Som vil si at hver av de loopene vil kjøre n ganger som bidrar til at
+kompleksiteten vil være O(n^2).
+
+sort()
+- denne metoden har to for-looper for seg selv og 2 i en while-loop. Den forste for-loopen kjorer n ganger hver, mens for-loopen med en for-loop inni seg
+kjorer n*n ganger. Kompleksiteten blir derfor 2n og n^2 --> O(2n + n^2).
+
+countTime()
+- denne metoden har to for-looper som er hoved for hver av de delene, tidligst og seneste.
+loop for tidligst kjører n*n*n = n^3. For-loop  for seneste kjorer n*n= n^2. Kompleksiteten blir derfor O(n^3 +n^2).
+
+timeSchedule()
+- denne har 3 for-looper. Hver av de kjører n ganger, som bidrar til at O(n^3).
+
+finishTime()
+- har kun en for-loop som kjører n ganger som bidrar til at kompleksiteten vil være O(n).
+
+2. What requirements are there for the input graph in order for the project to be
+successfully planned? Please put the discussion in the light of graf theoretical properties.
+- grafen burde vaere sammenhengende for at den skal kunne fungere.
+
+3. What kind of the graph algorithms did you use in your implementation?
+- sortering(toplogisk), cycle
