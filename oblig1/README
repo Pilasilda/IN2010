@@ -1,0 +1,17 @@
+• Hvordan	programmet	skal	kompileres
+  - Har laget en egen testklasse hvor jeg testet hver metode. Parent, find og grandaparent(funker ikke), gjorde jeg public og testet de.
+  - De fungerte fint.
+• hvilken	fil	som	inneholder	main-metoden
+  - Test.java er mainklassen
+• Hvilke	antakelser	du	har	gjort	når	du	løste	oppgaven
+  - På findinrange antok jeg at bare tall mellom low og high altså uten start og slutt verdi skal returneres.
+• Hvilke	særegenheter	din	implementasjon	inneholder
+  - Måtte gjøre findparent,find public for å teste om de fungerte med min egen testklasse
+• Hva	som	ikke	fungerer	slik	det	skal
+  - grandparent antok at children sin parent sin parent er grandparent kalte derfor på parent sin parent, men fikk nullpointer ved enkelte tilfeller.
+  - Fant dermed ut at jeg hadde feil i parent metoden min og derfor funket den ikke.
+  - For å teste om inorder(sorted) fungerer lagde jeg en forloop som går gjennom alle elementer i testklassen, dette ga riktige verdier.
+• Hva	du	helst	vil	ha	tilbakemelding	fra	din	retter	om
+  - Er jeg i det heletatt på riktig vei?
+  - Føler remove metoden var veldig tungvint! Finnes det enklere måte å gjøre det på? Slet veldig mye med
+    å f.eks fjerne node som har 2 barn.
